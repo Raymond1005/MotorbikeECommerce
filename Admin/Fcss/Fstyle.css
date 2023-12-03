@@ -1,0 +1,391 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.Flogin {
+    background-color: #a5a5a5;
+    height: 100%;
+}
+
+.Flogin .Fform_login {
+    padding: 10px;
+    width: 700px;
+    height: 320px;
+    min-height: 227px;
+    background-color: #e9e9e9;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+
+.Flogin .Fform_login .in_user {
+    position: relative;
+    top: 30px;
+    height: 180px;
+}
+
+
+/* .Flogin .Fform_login .in_user .icon_user {
+    position: relative;
+    top: 30px;
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    margin: 0;
+}
+
+.Flogin .Fform_login .in_user .icon_pass {
+    position: relative;
+    top: 30px;
+    height: 180px;
+} */
+
+.Flogin .Fform_login .Ftitle {
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: #a5a5a5;
+    top: 5px;
+}
+
+.Flogin .Fform_login #Fusername {
+    width: 420px;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    border-width: 2px;
+    position: relative;
+    left: 130px;
+}
+
+.Flogin .Fform_login #Fpassword {
+    width: 420px;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+    border-width: 2px;
+    position: relative;
+    left: 130px;
+}
+
+.Flogin .Fform_login #btn_Flogin {
+    width: 90%;
+    height: 50px;
+    color: white;
+    background-color: rgb(6, 179, 44);
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    margin-top: 10px;
+}
+
+.Flogin .Fform_login #btn_Flogin:hover {
+    background-color: #ff0000;
+}
+
+.container-col .Fheader {
+    background-color: rgb(75, 75, 75);
+    height: 60px;
+    line-height: 45px;
+}
+
+.container-col .Fheader .Fheader_left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.788);
+    text-align: center;
+}
+
+.container-col .Fheader .Fheader_left h2 {
+    color: rgba(255, 255, 255, 0.788);
+    line-height: 55px;
+}
+
+.container-col .Fheader .Fheader_right {
+    width: 50%;
+    float: left;
+}
+
+.container-col .Fheader .Fheader_right li {
+    border-right: 1px solid rgba(255, 255, 255, 0.788);
+}
+
+.container-col .Fheader .Fheader_right li:hover {
+    background-color: black;
+}
+
+.container-col .Fheader .Fheader_right li a {
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: 600;
+}
+
+.container-col .Fheader .Fheader_right .show_Fuser {
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: 600;
+    line-height: 60px;
+    position: relative;
+    left: 97%;
+    width: 250px;
+}
+
+.container-col .Fheader .Fheader_right .show_Fuser button {
+    background-color: rgb(75, 75, 75);
+    height: 58px;
+    border: rgb(75, 75, 75);
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: 600;
+    border-right: 1px solid rgba(255, 255, 255, 0.788);
+    border-left: 1px solid rgba(255, 255, 255, 0.788);
+    width: 100px;
+    position: relative;
+    left: 15px;
+}
+
+.container-col .Fheader .Fheader_right .show_Fuser button:hover {
+    background-color: black;
+}
+
+.container-col .Fbody {
+    height: 600px;
+}
+
+.container-col .Fbody .Fbody_left {
+    background-color: #f7f7f7;
+    width: 20%;
+    height: 35%;
+    float: left;
+}
+
+.container-col .Fbody .Fbody_left .card-header {
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-col .Fbody .Fbody_left .btn-link {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container-col .Fbody .Fbody_left .btn-link .fa-caret-down {
+    color: black;
+    font-size: 12px;
+    position: relative;
+    left: 50px;
+}
+
+.container-col .Fbody .Fbody_left .card-body {
+    cursor: pointer;
+}
+
+.container-col .Fbody .Fbody_left .card-body a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container-col .Fbody .Fbody_right {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.container-col .Fbody .Fbody_right #btn_Fsearch_scroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 55px;
+    height: 57px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.container-col .Fbody .Fbody_right #btn_Fsearch_scroll:hover {
+    background-color: red;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themSP .Fform_add .Fform_add_th {
+    width: 160px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themSP .Fform_themSP_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themSP .Fform_add .Fform_add_td .Fform_add_TSKT .Fform_add_TSKT_th {
+    width: 180px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themSP .btn_Fform_themSP {
+    position: relative;
+    left: 400px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .Fform_sua .Fform_sua_th {
+    width: 160px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .warning_title {
+    position: relative;
+    left: 400px;
+    color: red;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .Fform_suaSP_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .Fform_suaSP_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fsanpham .Fsanpham_top .Fform_SP_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fdonhang .Fdonhang_top .Fform_QLSP_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fnhanvien .Fnhanvien_top .Fform_QLNV_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themNV .Fform_themNV_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themNV .Fform_add_NV .Fform_add_NV_th {
+    width: 160px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_themNV .btn_Fform_themNV {
+    position: relative;
+    left: 400px;
+}
+
+.container-col .Fbody .Fbody_right .chitiet_SP_DH .SP_DH_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .Fform_sua .Fform_sua_td .Fform_sua_TSKT .Fform_sua_TSKT_th {
+    width: 180px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaSP .btn_Fform_suaSP {
+    position: relative;
+    left: 400px;
+}
+
+.container-col .Fbody .Fbody_right .FSP_th {
+    text-align: center;
+}
+
+.container-col .Fbody .Fbody_right .FSP_col {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-col .Fbody .Fbody_right .Fdonhang .FSP_th_DH {
+    text-align: center;
+}
+
+.container-col .Fbody .Fbody_right .Fdonhang .FSP_col_DH {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container-col .Fbody .Fbody_right .Fdonhang .FSP_col_DH_TV {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container-col .Fbody .Fbody_right .Fnhanvien .FSP_th_NV {
+    text-align: center;
+}
+
+.container-col .Fbody .Fbody_right .Fnhanvien .FSP_col_NV {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaNV .Fform_sua .Fform_sua_NV_th {
+    width: 160px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaNV .btn_Fform_suaNV {
+    position: relative;
+    left: 400px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaNV .Fform_suaNV_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_NewUser .Fform_NewU .Fform_newTK_th {
+    width: 160px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_NewUser .btn_Fform_newNV {
+    position: relative;
+    left: 400px;
+}
+
+.container-col .Fbody .Fbody_right .Fform_NewUser .Fform_NewUser_title {
+    text-align: center;
+    font-weight: 600;
+    color: #a8a7a7;
+}
+
+.container-col .Fbody .Fbody_right .Fform_suaNV .warning_NV_title {
+    position: relative;
+    left: 400px;
+    color: red;
+}
+
+.container-col .Fbody .Fbody_right .FSP_col .btn_Fsua {
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.container-col .Fbody .Fbody_right .FSP_col .btn_Fxoa {
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
